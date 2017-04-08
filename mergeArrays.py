@@ -1,0 +1,7 @@
+#from itertools import product
+#a={1, 2}
+#print (list(product(range(3), a)))
+nums = {1, 2, 3, 4, 5, 6}
+nums = {0, 1, 2, 3} & nums
+nums = filter(lambda x: x > 1, nums)
+print(len(list(nums)))
