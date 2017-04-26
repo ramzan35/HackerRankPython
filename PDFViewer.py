@@ -1,4 +1,4 @@
-
+h = [26];
 for h_i in 26:
     h[h_i] = input();
 
